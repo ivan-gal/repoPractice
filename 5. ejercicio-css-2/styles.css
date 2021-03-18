@@ -1,0 +1,32 @@
+.formDiv {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    min-width: 400px;
+    max-width: 800px;
+    flex-grow: 1;
+}
+[required] {
+    border-color: red;
+}
+fieldset {
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+fieldset:hover {
+    background-color: rgba(136, 132, 132, 0.767);
+}
+
+fieldset:first-child,
+fieldset:last-of-type {
+    border-bottom: 5px solid black;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: none;
+}

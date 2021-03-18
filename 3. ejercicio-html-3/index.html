@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio HTML 1</title>
+    </head>
+
+    <body>
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="GET-name">Nombre</label>
+                <input
+                    id="GET-name"
+                    type="text"
+                    name="name"
+                    autofocus
+                    required
+                />
+                <br />
+                <br />
+                <label for="GET-mail">Correo electrónico</label>
+                <input id="GET-mail" type="email" name="email" required />
+                <br />
+                <br />
+                <label for="GET-url">Url de tu web personal</label>
+                <input
+                    id="GET-url"
+                    type="url"
+                    name="url"
+                    placeholder="Escribe la Url de tu página web personal"
+                />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Fechas</legend>
+                <label for="GET-date">Fecha</label>
+                <input id="GET-date" type="date" name="date" />
+                <br />
+                <br />
+                <label for="GET-time">Tiempo</label>
+                <input id="GET-time" type="time" name="time" />
+                <br />
+                <br />
+                <label for="GET-datetime">Fecha y hora</label>
+                <input
+                    id="GET-datetime"
+                    type="datetime-local"
+                    name="datetime"
+                />
+                <br />
+                <br />
+                <label for="GET-month">Mes</label>
+                <input id="GET-month" type="month" name="month" />
+                <br />
+                <br />
+                <label for="GET-week">Semana</label>
+                <input id="GET-week" type="week" name="week" />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Parámetros personales</legend>
+                <label for="GET-number">Número</label>
+                <input
+                    id="GET-number"
+                    type="number"
+                    name="number"
+                    min="-10"
+                    max="10"
+                />
+                <br />
+                <br />
+                <label for="GET-tel">Teléfono</label>
+                <input
+                    id="GET-tel"
+                    type="tel"
+                    name="tel"
+                    value="699999999"
+                    readonly
+                />
+                <br />
+                <br />
+                <label for="GET-search">Término de busqueda</label>
+                <input id="GET-search" type="search" name="search" disabled />
+                <br />
+                <br />
+                <label for="GET-color">Color favorito</label>
+                <input type="color" name="olor" id="GET-color" />
+            </fieldset>
+            <br />
+            <button>Enviar formulario</button>
+        </form>
+    </body>
+</html>
