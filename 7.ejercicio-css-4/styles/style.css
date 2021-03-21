@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'sections.css';
+
+:root {
+    --main-page-color: #f8a400;
+    --description-color: #8181fe;
+    --main-font: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-page-color);
+}
+
+body > h1 {
+    font-family: var(--main-font);
+    text-align: center;
+    font-size: 8em;
+    color: white;
+    margin-top: 0.5em;
+    letter-spacing: -2px;
+    animation: fadeIn ease 4s;
+}
+
+article {
+    display: flex;
+    margin: 2em 6em 2em 6em;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
